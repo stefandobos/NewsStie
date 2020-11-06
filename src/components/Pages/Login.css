@@ -1,0 +1,65 @@
+.bg-singUp{
+    /*background-color: black;*/
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.container-login{
+    background-color: #58037085;
+    justify-content: center;
+    margin: 5% auto 15% auto;
+    border: 1px solid #ffffff;
+    width: 40%;
+    padding: 50px;
+    border-radius: 12px;
+    font-size: 23px;
+    color: #e8e8e8;
+}
+
+.input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.log-buttons{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-signin{
+    background-color: #e8e8e8;
+    color: #242424;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.reg--button{
+    background-color: #e8e8e8;
+    color: #242424;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container-login{
+        width: 90%;
+        
+    }
+}
