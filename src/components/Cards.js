@@ -10,13 +10,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/image1.jpeg'
+              src={require('./Images/image1.jpeg')}
               text='Relase date PlayStation 5'
               label='Console'
               path='/news_1'
             />
             <CardItem
-              src='/images/image3.jpeg'
+              src={require('./Images/image3.jpeg')}
               text='Cyberpunk 2077 has been delayed until December'
               label='Gaming'
               path='/'
@@ -24,19 +24,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/images/image4.jpeg'
+              src={require('./Images/image4.jpeg')}
               text='ASUS Announces EKWB GeForce RTX 30 Series Graphics Cards'
               label='PC componentes'
               path='/'
             />
             <CardItem
-              src='/images/image5.jpeg'
+              src={require('./Images/image5.jpeg')}
               text='Arcane, the league of legends anime'
               label='Anime'
               path='/'
             />
             <CardItem
-              src='/images/image6.jpeg'
+              src={require('./Images/image6.jpeg')}
               text='GEFORCE NOW'
               label='Game Streaming'
               path='/'

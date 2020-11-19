@@ -40,7 +40,7 @@ export default class Login extends Component {
 render() {
   return (
     <div className='bg-singUp'>
-      <video src='/videos/video3.mov' autoPlay loop muted />
+      <video src={require('../videos/video3.mov')} autoPlay loop muted />
       <div className='container-login'>
         <div>
           <label className='label-1' htmlFor='email-adress'>Email</label>

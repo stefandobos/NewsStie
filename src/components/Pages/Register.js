@@ -46,7 +46,7 @@ class Register extends React.Component {
   render() {
     return (
       <div className='bg-singUp'>
-        <video src='/videos/video3.mov' autoPlay loop muted />
+        <video src={require('../videos/video3.mov')} autoPlay loop muted />
         <div className='container-register'>
           <div className="">
             <label className="" htmlFor="name">Name</label>

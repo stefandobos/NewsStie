@@ -6,10 +6,10 @@ export default class News_1 extends Component{
     render(){
         return(
             <div className='container-news'>
-                <video src='/videos/video2.mov' autoPlay loop muted />
+                <video src={require('../../videos/video2.mov')} autoPlay loop muted />
                 <h1 className='title'>PLAYSTATION 5 RELASE DATE</h1>
                 <div className='content-container'>
-                    <img src='/images/image2.jpeg' className='img--ps' alt='PlayStation5'/>
+                    <img src={require('../../Images/image2.jpeg')} className='img--ps' alt='PlayStation5'/>
                     <h2>PlayStation 5</h2>
                     <p>Sony has officially unveiled the PS5 and we're now just weeks away from the next PlayStation arriving in stores all over the world (here's the best PS5 pre-order deals ahead of Black Friday). Game on!</p>
                     <p>PlayStation has always offered more than just games, though. The PS5 hopes to impress with 4K Blu-ray playback, immersive 3D Audio, clever haptic feedback tech and top-notch streaming apps. But how much will the PS5 cost? Will it offer 8K? And what will the user PS5 user interface look like?  
